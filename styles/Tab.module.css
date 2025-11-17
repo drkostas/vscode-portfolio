@@ -46,14 +46,30 @@
   border-bottom: none;
 }
 
-@media screen and (max-width: 900px) {  
+@media screen and (max-width: 900px) {
   .tab {
-    font-size: 1.0rem;
+    font-size: 0.8rem;
+    padding: 0.4rem 1rem;
+  }
+
+  .tab img {
+    width: 16px;
+    height: 16px;
   }
 }
 
 @media screen and (max-width: 600px) {
   .tab {
-    font-size: 1.1rem;
+    font-size: 0.75rem;
+    padding: 0.35rem 0.85rem;
+  }
+
+  .tab img {
+    width: 14px;
+    height: 14px;
+  }
+
+  .tab p {
+    margin-left: 3px;
   }
 }

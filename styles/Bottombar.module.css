@@ -1,4 +1,8 @@
 .bottomBar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
   background: var(--bottombar-bg);
   height: 25px;
   border-top: 1px solid var(--bottombar-border);
@@ -8,6 +12,7 @@
   align-items: center;
   justify-content: space-between;
   font-size: 0.8rem;
+  z-index: 100;
 }
 
 .bottomBar a {
@@ -38,12 +43,40 @@
   background: var(--bottombar-hover-bg);
 }
 
+@media screen and (max-width: 768px) {
+  .bottomBar {
+    font-size: 0.65rem;
+    padding: 0 0.35rem;
+    height: 22px;
+  }
+
+  .section {
+    margin-right: 0.35rem;
+    padding: 0 0.15rem;
+    height: 20px;
+  }
+
+  .icon {
+    margin-right: 3px;
+    width: 14px;
+    height: 14px;
+  }
+}
+
 @media screen and (max-width: 600px) {
   .bottomBar {
     font-size: 0.6rem;
+    height: 20px;
   }
+
   .section {
-    margin-right: 0.5rem;
+    margin-right: 0.25rem;
+    padding: 0 0.1rem;
+  }
+
+  .icon {
+    width: 12px;
+    height: 12px;
   }
 }
 
