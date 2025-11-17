@@ -2,6 +2,7 @@
   max-width: 1200px;
   margin: 0 auto;
   padding: 3rem 2rem;
+  overflow-x: hidden;
 }
 
 .hero {
@@ -21,6 +22,7 @@
 .textSection {
   flex: 1;
   max-width: 650px;
+  min-width: 0;
 }
 
 .name {
@@ -272,6 +274,22 @@
   opacity: 0.82;
 }
 
+/* Laptop screens - reduce gap */
+@media screen and (max-width: 1280px) {
+  .heroContent {
+    gap: 3rem;
+  }
+
+  .textSection {
+    max-width: 600px;
+  }
+
+  .imageWrapper {
+    width: 260px;
+    height: 260px;
+  }
+}
+
 /* Tablet and smaller */
 @media screen and (max-width: 1024px) {
   .heroContent {
@@ -281,6 +299,11 @@
 
   .textSection {
     max-width: 100%;
+    order: 2;
+  }
+
+  .imageSection {
+    order: 1;
   }
 
   .name {
@@ -323,53 +346,76 @@
 /* Mobile */
 @media screen and (max-width: 768px) {
   .container {
-    padding: 2rem 1.5rem;
+    padding: 1.5rem 1rem;
   }
 
   .hero {
     min-height: auto;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
   }
 
   .heroContent {
-    gap: 2.5rem;
+    gap: 1.5rem;
   }
 
   .name {
-    font-size: 2.25rem;
+    font-size: 1.85rem;
   }
 
   .title {
-    font-size: 1.25rem;
+    font-size: 1.05rem;
+    margin-bottom: 1.25rem;
   }
 
   .description {
-    font-size: 1rem;
+    font-size: 0.88rem;
+    line-height: 1.7;
+    margin-bottom: 1.75rem;
+  }
+
+  .expertise {
+    margin-bottom: 2rem;
+  }
+
+  .expertiseTitle {
+    font-size: 0.8rem;
+    margin-bottom: 0.85rem;
+  }
+
+  .expertiseGrid {
+    gap: 0.65rem;
+  }
+
+  .expertiseTag {
+    font-size: 0.78rem;
+    padding: 0.55rem 1rem;
   }
 
   .actions {
     flex-direction: column;
     width: 100%;
+    gap: 0.85rem;
   }
 
   .primaryButton,
   .secondaryButton {
     width: 100%;
-    padding: 1rem;
+    padding: 0.85rem;
+    font-size: 0.88rem;
   }
 
   .imageWrapper {
-    width: 220px;
-    height: 220px;
+    width: 160px;
+    height: 160px;
   }
 
   .experience {
-    margin-top: 2.5rem;
+    margin-top: 2rem;
   }
 
   .sectionTitle {
-    font-size: 1.5rem;
-    margin-bottom: 1.75rem;
+    font-size: 1.3rem;
+    margin-bottom: 1.35rem;
   }
 
   .timeline {
@@ -421,25 +467,64 @@
 /* Small mobile */
 @media screen and (max-width: 480px) {
   .container {
-    padding: 1.5rem 1rem;
+    padding: 1.25rem 0.75rem;
+  }
+
+  .hero {
+    margin-bottom: 1.75rem;
+  }
+
+  .heroContent {
+    gap: 1.25rem;
   }
 
   .name {
-    font-size: 1.9rem;
+    font-size: 1.65rem;
   }
 
   .title {
-    font-size: 1.1rem;
+    font-size: 0.95rem;
+    margin-bottom: 1rem;
   }
 
-  .imageWrapper {
-    width: 200px;
-    height: 200px;
+  .description {
+    font-size: 0.82rem;
+    line-height: 1.65;
+    margin-bottom: 1.5rem;
+  }
+
+  .expertiseTitle {
+    font-size: 0.75rem;
+    margin-bottom: 0.75rem;
   }
 
   .expertiseTag {
-    font-size: 0.8rem;
-    padding: 0.5rem 0.9rem;
+    font-size: 0.72rem;
+    padding: 0.5rem 0.8rem;
+  }
+
+  .imageWrapper {
+    width: 140px;
+    height: 140px;
+  }
+
+  .actions {
+    gap: 0.75rem;
+  }
+
+  .primaryButton,
+  .secondaryButton {
+    padding: 0.8rem;
+    font-size: 0.85rem;
+  }
+
+  .experience {
+    margin-top: 1.75rem;
+  }
+
+  .sectionTitle {
+    font-size: 1.2rem;
+    margin-bottom: 1.25rem;
   }
 
   .timelineItem {
