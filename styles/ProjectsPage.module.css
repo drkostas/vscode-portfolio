@@ -45,3 +45,44 @@
   grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
   gap: 1.25rem;
 }
+
+/* Mobile responsive */
+@media screen and (max-width: 768px) {
+  .header h3 {
+    font-size: 1rem;
+  }
+
+  .categoryHeader h4 {
+    font-size: 0.85rem;
+  }
+
+  .categoryHeader::before {
+    width: 2px;
+    height: 16px;
+  }
+
+  .container {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    margin-bottom: 1.25rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .header h3 {
+    font-size: 0.95rem;
+  }
+
+  .categoryHeader {
+    margin: 1.5rem 0 0.85rem 0;
+  }
+
+  .categoryHeader h4 {
+    font-size: 0.8rem;
+  }
+
+  .container {
+    gap: 0.85rem;
+    margin-bottom: 1rem;
+  }
+}

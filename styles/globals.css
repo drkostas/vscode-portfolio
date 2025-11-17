@@ -8,6 +8,17 @@
   box-sizing: border-box;
 }
 
+html,
+body {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  overflow: hidden;
+  height: 100vh;
+  background: var(--main-bg);
+}
+
 /* Tags */
 .PyTorch {
   border: 0.1rem solid rgb(238, 89, 3);

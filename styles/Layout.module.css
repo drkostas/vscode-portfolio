@@ -3,16 +3,18 @@
 .main {
   display: flex;
   background: var(--main-bg);
-  height: calc(100vh - 35px - 25px); /* Subtract titlebar and bottombar heights */
+  height: calc(100vh - 35px); /* Only subtract titlebar - bottombar is fixed */
 }
 
 .content {
   padding: 2rem;
+  padding-bottom: 2.5rem; /* Extra padding for fixed bottombar */
   color: var(--text-color);
   font-family: 'JetBrains Mono', monospace;
   flex: 1;
   height: 100%;
   overflow-y: auto;
+  overflow-x: hidden;
   font-size: 1rem;
 }
 
@@ -38,6 +40,7 @@
 @media screen and (max-width: 768px) {
   .content {
     padding: 1.5rem 1rem;
+    padding-bottom: 2rem;
     font-size: 0.9rem;
   }
 }
@@ -45,10 +48,11 @@
 @media screen and (max-width: 600px) {
   .content {
     padding: 1rem 0.75rem;
+    padding-bottom: 1.75rem;
     font-size: 0.85rem;
   }
 
   .main {
-    height: calc(100vh - 30px - 25px); /* Smaller titlebar on mobile */
+    height: calc(100vh - 30px); /* Smaller titlebar on mobile, bottombar is fixed */
   }
 }

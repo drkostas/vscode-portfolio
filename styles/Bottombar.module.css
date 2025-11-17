@@ -1,4 +1,8 @@
 .bottomBar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
   background: var(--bottombar-bg);
   height: 25px;
   border-top: 1px solid var(--bottombar-border);
@@ -8,6 +12,7 @@
   align-items: center;
   justify-content: space-between;
   font-size: 0.8rem;
+  z-index: 100;
 }
 
 .bottomBar a {
