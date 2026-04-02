@@ -52,5 +52,14 @@
     "tags": ["PyPi", "CircleCI", "benchmarking"],
     "source_code": "https://github.com/drkostas/bench-utils",
     "pypi": "https://pypi.org/project/bench-utils/"
+  },
+  {
+    "id": 7,
+    "name": "Garmin Auth",
+    "image": "https://i.imgur.com/KGOsaKq.png",
+    "description": "Self-healing Garmin Connect OAuth authentication — handles the complex SSO flow (OAuth1 → OAuth2), automatic token refresh, and rate limit recovery.",
+    "tags": ["PyPi", "Garmin", "OAuth", "Python", "authentication"],
+    "source_code": "https://github.com/drkostas/garmin-auth",
+    "pypi": "https://pypi.org/project/garmin-auth/"
   }
 ]

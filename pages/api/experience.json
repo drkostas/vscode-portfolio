@@ -8,11 +8,19 @@
     "description": "Designed and deployed multi-agent LLM framework converting natural language to executable code, improving functional success rates by 12%. Built real-time detection system correctly identifying 93% of unfeasible requests with 4.5x performance improvement."
   },
   {
+    "id": "fleetsmartai",
+    "title": "AI Engineer (B2B Contract)",
+    "company": "FleetSmart.ai",
+    "location": "United States",
+    "period": "Jan 2025 – May 2025",
+    "description": "Built AI-powered maritime decision engine with hybrid LLM + deterministic recommendation system, deployed on GCP Cloud Run. Developed scoring experiment harness across 4 architecture variants, KPI computation engine (FFAs/spot rates 30%, seasonality 25%, port congestion 25%, news sentiment 20%), PortCongestion prediction model, bunker futures integration (FIS Live Fuel Oil), and world news intelligence pipeline."
+  },
+  {
     "id": "xpensai",
     "title": "Co-Founder & ML Engineer",
     "company": "XPensAI",
     "location": "United Kingdom",
-    "period": "2024 - Now",
+    "period": "2024 - 2025",
     "description": "Launched AI-powered SaaS platform used by 30+ businesses, reducing manual expense entry by 65%. Led development improving processing speed by 120%. Built deep learning solutions achieving 95% accuracy on receipt scanning."
   },
   {
@@ -20,7 +28,7 @@
     "title": "Machine Learning Researcher",
     "company": "University of Tennessee",
     "location": "US",
-    "period": "2021 - Now",
+    "period": "2021 - 2026",
     "description": "Developed self-supervised framework using masking strategies. Created feature masking strategy raising Macro F1 by 6%. Advanced masked image modeling achieving 5% accuracy improvement over state-of-the-art. Developed fine-tuning strategies reducing training time by 32% improving Macro F1 by 5.4%."
   },
   {

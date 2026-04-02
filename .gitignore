@@ -36,3 +36,4 @@ yarn-error.log*
 .vscode
 .env.local
 CLAUDE.md
+.playwright-mcp/
