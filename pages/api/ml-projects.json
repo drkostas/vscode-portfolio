@@ -5,7 +5,8 @@
     "image": "https://i.imgur.com/skFXu8Z.png",
     "description": "First open PyTorch reproduction of MaskDistill with pre-trained weights. Reproduces 84.8% finetuning accuracy (paper: 85.3%), with full evaluation suite: semantic segmentation, object detection, k-NN, and linear probe.",
     "tags": ["PyTorch", "Self-Supervised", "CLIP", "Computer-Vision", "HuggingFace"],
-    "source_code": "https://github.com/drkostas/MaskDistill-PyTorch"
+    "source_code": "https://github.com/drkostas/MaskDistill-PyTorch",
+    "demo": "https://huggingface.co/drkostas/MaskDistill-ViT-Base"
   },
   {
     "id": 2,
@@ -13,7 +14,8 @@
     "image": "https://i.imgur.com/8IvJcY3.png",
     "description": "AI-powered fleet management platform for vessel tracking, compliance monitoring, and operational analytics.",
     "tags": ["FastAPI", "Next.js", "GCP", "LLM", "PostgreSQL"],
-    "source_code": null
+    "source_code": null,
+    "live": "https://fleetsmart.ai"
   },
   {
     "id": 3,
@@ -29,7 +31,8 @@
     "image": "https://i.imgur.com/cAq97ow.png",
     "description": "AI-powered expense management platform with automated receipt scanning, OCR, and intelligent categorization.",
     "tags": ["Python", "AWS", "Azure", "GPT-4o", "Serverless"],
-    "source_code": "https://xpensai.com"
+    "source_code": null,
+    "live": "https://xpensai.com"
   },
   {
     "id": 5,
@@ -37,7 +40,8 @@
     "image": "https://i.imgur.com/QUZHpLd.png",
     "description": "Personal health and fitness dashboard aggregating data from Garmin, Strava, and Hevy into a unified analytics view.",
     "tags": ["Python", "Next.js", "Garmin", "Strava"],
-    "source_code": "https://github.com/drkostas/soma"
+    "source_code": "https://github.com/drkostas/soma",
+    "demo": "https://soma-demo.gkos.dev"
   },
   {
     "id": 6,
