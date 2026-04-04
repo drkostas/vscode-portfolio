@@ -1,6 +1,15 @@
 [
   {
     "id": 1,
+    "name": "Garmin Auth",
+    "image": "https://i.imgur.com/KGOsaKq.png",
+    "description": "Self-healing Garmin Connect OAuth authentication — handles the complex SSO flow (OAuth1 → OAuth2), automatic token refresh, and rate limit recovery.",
+    "tags": ["PyPi", "Garmin", "OAuth", "Python", "authentication"],
+    "source_code": "https://github.com/drkostas/garmin-auth",
+    "pypi": "https://pypi.org/project/garmin-auth/"
+  },
+  {
+    "id": 2,
     "name": "High SQL",
     "image": "https://imgur.com/Sx43htM.png",
     "description": "A high-level sql command utility. Currently only MySQL is supported.",
@@ -9,7 +18,7 @@
     "pypi": "https://pypi.org/project/high-sql/"
   },
   {
-    "id": 2,
+    "id": 3,
     "name": "Cloud File Manager",
     "image": "https://imgur.com/TWD42kg.png",
     "description": "A high-level filemanager utility for cloud services. Currently only Dropbox is supported.",
@@ -18,7 +27,7 @@
     "pypi": "https://pypi.org/project/cloud-filemanager/"
   },
   {
-    "id": 3,
+    "id": 4,
     "name": "YAML Wrapper",
     "image": "https://imgur.com/98sBFjF.png",
     "description": "A YAML configuration wrapper.",
@@ -27,7 +36,7 @@
     "pypi": "https://pypi.org/project/yaml-config-wrapper/"
   },
   {
-    "id": 4,
+    "id": 5,
     "name": "Color Logger",
     "image": "https://imgur.com/4LumI32.png",
     "description": "A logger with text formatting using termcolor.",
@@ -36,7 +45,7 @@
     "pypi": "https://pypi.org/project/termcolor-logger/"
   },
   {
-    "id": 5,
+    "id": 6,
     "name": "Email Sender",
     "image": "https://imgur.com/kWJweYF.png",
     "description": "A utility for sending emails with attachments. Currently only Gmail is supported.",
@@ -45,21 +54,12 @@
     "pypi": "https://pypi.org/project/pyemail-sender/"
   },
   {
-    "id": 6,
+    "id": 7,
     "name": "Benchmark Tools",
     "image": "https://imgur.com/k64Z12r.png",
     "description": "A collection of benchmarking tools.",
     "tags": ["PyPi", "CircleCI", "benchmarking"],
     "source_code": "https://github.com/drkostas/bench-utils",
     "pypi": "https://pypi.org/project/bench-utils/"
-  },
-  {
-    "id": 7,
-    "name": "Garmin Auth",
-    "image": "https://i.imgur.com/KGOsaKq.png",
-    "description": "Self-healing Garmin Connect OAuth authentication — handles the complex SSO flow (OAuth1 → OAuth2), automatic token refresh, and rate limit recovery.",
-    "tags": ["PyPi", "Garmin", "OAuth", "Python", "authentication"],
-    "source_code": "https://github.com/drkostas/garmin-auth",
-    "pypi": "https://pypi.org/project/garmin-auth/"
   }
 ]

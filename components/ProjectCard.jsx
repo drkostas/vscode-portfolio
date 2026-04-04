@@ -33,6 +33,16 @@ const ProjectCard = ({ project }) => {
               Code
             </a>
           )}
+          {project.live && (
+            <a
+              href={project.live}
+              target="_blank"
+              rel="noopener noreferrer"
+              className={styles.underline}
+            >
+              Live
+            </a>
+          )}
           {project.demo && (
             <a
               href={project.demo}
