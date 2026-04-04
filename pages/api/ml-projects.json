@@ -1,6 +1,14 @@
 [
   {
     "id": 1,
+    "name": "MaskDistill-PyTorch",
+    "image": "https://i.imgur.com/skFXu8Z.png",
+    "description": "First open PyTorch reproduction of MaskDistill with pre-trained weights. Reproduces 84.8% finetuning accuracy (paper: 85.3%), with full evaluation suite: semantic segmentation, object detection, k-NN, and linear probe.",
+    "tags": ["PyTorch", "Self-Supervised", "CLIP", "Computer-Vision", "HuggingFace"],
+    "source_code": "https://github.com/drkostas/MaskDistill-PyTorch"
+  },
+  {
+    "id": 2,
     "name": "FleetSmart.ai",
     "image": "https://i.imgur.com/8IvJcY3.png",
     "description": "AI-powered fleet management platform for vessel tracking, compliance monitoring, and operational analytics.",
@@ -8,7 +16,7 @@
     "source_code": null
   },
   {
-    "id": 2,
+    "id": 3,
     "name": "ShiftMD",
     "image": "https://i.imgur.com/Q4ZNPZS.png",
     "description": "Intelligent shift scheduling system for medical departments using constraint programming optimization.",
@@ -16,7 +24,7 @@
     "source_code": null
   },
   {
-    "id": 3,
+    "id": 4,
     "name": "XpensAI / MagicScan",
     "image": "https://i.imgur.com/cAq97ow.png",
     "description": "AI-powered expense management platform with automated receipt scanning, OCR, and intelligent categorization.",
@@ -24,7 +32,7 @@
     "source_code": "https://xpensai.com"
   },
   {
-    "id": 4,
+    "id": 5,
     "name": "Soma",
     "image": "https://i.imgur.com/QUZHpLd.png",
     "description": "Personal health and fitness dashboard aggregating data from Garmin, Strava, and Hevy into a unified analytics view.",
@@ -32,7 +40,7 @@
     "source_code": "https://github.com/drkostas/soma"
   },
   {
-    "id": 5,
+    "id": 6,
     "name": "Cross-scale MAE",
     "image": "https://i.imgur.com/3zery4d.png",
     "description": "Official Code of the paper 'Cross-Scale MAE: A Tale of Multi-Scale Exploitation in Remote Sensing'",
@@ -41,7 +49,7 @@
     "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=b___QQ8AAAAJ&authuser=1&citation_for_view=b___QQ8AAAAJ:d1gkVwhDpl0C"
   },
   {
-    "id": 6,
+    "id": 7,
     "name": "Minecraft AI",
     "image": "https://i.imgur.com/rH7S0M9.png",
     "description": "A Reinforcement Learning agent that learns how to to solve maze missions in Minecraft.",
@@ -49,7 +57,7 @@
     "source_code": "https://github.com/drkostas/Minecraft-AI"
   },
   {
-    "id": 7,
+    "id": 8,
     "name": "3D Semantic Segmentation",
     "image": "https://imgur.com/NtIvxWG.png",
     "description": "Semantic Segmentation with Transformers on 3D Medical Images.",
@@ -57,7 +65,7 @@
     "source_code": "https://github.com/drkostas/3D-Semantic-Segmentation"
   },
   {
-    "id": 8,
+    "id": 9,
     "name": "Transformer-based Question Answering using BERT",
     "image": "https://imgur.com/dw21deK.png",
     "description": "BERT-based question answering/reading comprehension methods on Rinehart Novels.",
@@ -65,7 +73,7 @@
     "source_code": "https://github.com/drkostas/Bert-Question-Answering"
   },
   {
-    "id": 9,
+    "id": 10,
     "name": "Accident Severity Prediction",
     "image": "https://imgur.com/3w7SKLt.png",
     "description": "Predicting the severity of car accidents from various attributes.",
@@ -74,7 +82,7 @@
     "source_code": "https://github.com/drkostas/accident-severity-prediction"
   },
   {
-    "id": 10,
+    "id": 11,
     "name": "Hybrid Girvan Newman",
     "image": "https://imgur.com/FcIlWzb.png",
     "description": "Hybrid Girvan Newman. Code for the `A Distributed Hybrid Community Detection Methodology for Social Networks` paper.",
@@ -83,7 +91,7 @@
     "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=b___QQ8AAAAJ&authuser=1&citation_for_view=b___QQ8AAAAJ:u5HHmVD_uO8C"
   },
   {
-    "id": 11,
+    "id": 12,
     "name": "COVID-19 Vaccination Prediction",
     "image": "https://imgur.com/uXxzBBC.png",
     "description": "Simultaneous Time Series Forecasting on the global COVID-19 Daily Vaccinations.",
@@ -91,7 +99,7 @@
     "source_code": "https://github.com/drkostas/covid19-vaccinations-predict"
   },
   {
-    "id": 12,
+    "id": 13,
     "name": "Instagram Likes Prediction",
     "image": "https://imgur.com/siwQMhc.png",
     "description": "First attempt on predicting the likes a photo will get on Instagram.",
@@ -99,7 +107,7 @@
     "source_code": "https://github.com/drkostas/Insta-Likes-Predict"
   },
   {
-    "id": 13,
+    "id": 14,
     "name": "Reinforcement Learning - Value Iteration",
     "image": "https://imgur.com/v0s5gPx.png",
     "description": "Implementation of value iteration algorithm for calculating an optimal MDP policy.",
@@ -107,7 +115,7 @@
     "source_code": "https://github.com/drkostas/RL-Value-Iteration"
   },
   {
-    "id": 14,
+    "id": 15,
     "name": "Vanilla Numpy CNN",
     "image": "https://imgur.com/sNrVbbL.png",
     "description": "A Vanilla Numpy-only Convolutional Neural Network.",
@@ -115,7 +123,7 @@
     "source_code": "https://github.com/drkostas/Numpy-CNN"
   },
   {
-    "id": 15,
+    "id": 16,
     "name": "Vanilla Numpy Neural Network",
     "image": "https://imgur.com/mm29qlX.png",
     "description": "A Vanilla Numpy-only Feed-Forward Neural Network.",
