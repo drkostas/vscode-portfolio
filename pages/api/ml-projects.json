@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "MEDiC",
-    "image": "",
+    "image": "https://i.imgur.com/R6FkX4x.png",
     "description": "Official PyTorch implementation of MEDiC \u2014 Multi-objective Exploration of Distillation from CLIP. Combines token distillation, CLS alignment, and pixel reconstruction with Evolved Part Masking. Achieves 85.07% finetuning and 73.92% k-NN on ImageNet-1K.",
     "tags": [
       "PyTorch",
@@ -60,7 +60,7 @@
   },
   {
     "id": 5,
-    "name": "XpensAI / MagicScan",
+    "name": "XpensAI",
     "image": "https://i.imgur.com/cAq97ow.png",
     "description": "AI-powered expense management platform with automated receipt scanning, OCR, and intelligent categorization.",
     "tags": [
