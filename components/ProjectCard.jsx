@@ -38,7 +38,7 @@ const ProjectCard = ({ project }) => {
               href={project.live}
               target="_blank"
               rel="noopener noreferrer"
-              className={styles.underline}
+              className={styles.ctaAccent}
             >
               Live
             </a>
@@ -48,7 +48,7 @@ const ProjectCard = ({ project }) => {
               href={project.demo}
               target="_blank"
               rel="noopener noreferrer"
-              className={styles.underline}
+              className={styles.ctaAccent}
             >
               Demo
             </a>

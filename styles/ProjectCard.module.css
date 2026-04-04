@@ -103,3 +103,17 @@
   transform: translateY(-1px);
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
 }
+
+.ctaAccent {
+  composes: underline;
+  background: var(--accent-color);
+  color: var(--bg-color, #1e1e1e);
+  font-weight: 600;
+}
+
+.ctaAccent:hover {
+  border-color: var(--accent-color);
+  transform: translateY(-1px);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  opacity: 0.9;
+}
