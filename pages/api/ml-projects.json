@@ -1,137 +1,236 @@
 [
   {
     "id": 1,
+    "name": "MEDiC",
+    "image": "",
+    "description": "Official PyTorch implementation of MEDiC \u2014 Multi-objective Exploration of Distillation from CLIP. Combines token distillation, CLS alignment, and pixel reconstruction with Evolved Part Masking. Achieves 85.07% finetuning and 73.92% k-NN on ImageNet-1K.",
+    "tags": [
+      "PyTorch",
+      "Self-Supervised",
+      "CLIP",
+      "MIM",
+      "Computer-Vision",
+      "HuggingFace"
+    ],
+    "source_code": "https://github.com/aicip/MEDiC",
+    "demo": "https://huggingface.co/drkostas/MEDiC-ViT-Base"
+  },
+  {
+    "id": 2,
     "name": "MaskDistill-PyTorch",
     "image": "https://i.imgur.com/skFXu8Z.png",
     "description": "First open PyTorch reproduction of MaskDistill with pre-trained weights. Reproduces 84.8% finetuning accuracy (paper: 85.3%), with full evaluation suite: semantic segmentation, object detection, k-NN, and linear probe.",
-    "tags": ["PyTorch", "Self-Supervised", "CLIP", "Computer-Vision", "HuggingFace"],
+    "tags": [
+      "PyTorch",
+      "Self-Supervised",
+      "CLIP",
+      "Computer-Vision",
+      "HuggingFace"
+    ],
     "source_code": "https://github.com/drkostas/MaskDistill-PyTorch",
     "demo": "https://huggingface.co/drkostas/MaskDistill-ViT-Base"
   },
   {
-    "id": 2,
+    "id": 3,
     "name": "FleetSmart.ai",
     "image": "https://i.imgur.com/8IvJcY3.png",
     "description": "AI-powered fleet management platform for vessel tracking, compliance monitoring, and operational analytics.",
-    "tags": ["FastAPI", "Next.js", "GCP", "LLM", "PostgreSQL"],
+    "tags": [
+      "FastAPI",
+      "Next.js",
+      "GCP",
+      "LLM",
+      "PostgreSQL"
+    ],
     "source_code": null,
     "live": "https://fleetsmart.ai"
   },
   {
-    "id": 3,
+    "id": 4,
     "name": "ShiftMD",
     "image": "https://i.imgur.com/Q4ZNPZS.png",
     "description": "Intelligent shift scheduling system for medical departments using constraint programming optimization.",
-    "tags": ["Next.js", "Python", "OR-Tools", "Supabase"],
+    "tags": [
+      "Next.js",
+      "Python",
+      "OR-Tools",
+      "Supabase"
+    ],
     "source_code": null
   },
   {
-    "id": 4,
+    "id": 5,
     "name": "XpensAI / MagicScan",
     "image": "https://i.imgur.com/cAq97ow.png",
     "description": "AI-powered expense management platform with automated receipt scanning, OCR, and intelligent categorization.",
-    "tags": ["Python", "AWS", "Azure", "GPT-4o", "Serverless"],
+    "tags": [
+      "Python",
+      "AWS",
+      "Azure",
+      "GPT-4o",
+      "Serverless"
+    ],
     "source_code": null,
     "live": "https://xpensai.com"
   },
   {
-    "id": 5,
+    "id": 6,
     "name": "Soma",
     "image": "https://i.imgur.com/QUZHpLd.png",
     "description": "Personal health and fitness dashboard aggregating data from Garmin, Strava, and Hevy into a unified analytics view.",
-    "tags": ["Python", "Next.js", "Garmin", "Strava"],
+    "tags": [
+      "Python",
+      "Next.js",
+      "Garmin",
+      "Strava"
+    ],
     "source_code": "https://github.com/drkostas/soma",
     "demo": "https://soma-demo.gkos.dev"
   },
   {
-    "id": 6,
+    "id": 7,
     "name": "Cross-scale MAE",
     "image": "https://i.imgur.com/3zery4d.png",
     "description": "Official Code of the paper 'Cross-Scale MAE: A Tale of Multi-Scale Exploitation in Remote Sensing'",
-    "tags": ["PyTorch", "MIM", "Computer-Vision"],
+    "tags": [
+      "PyTorch",
+      "MIM",
+      "Computer-Vision"
+    ],
     "source_code": "https://github.com/aicip/Cross-Scale-MAE",
     "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=b___QQ8AAAAJ&authuser=1&citation_for_view=b___QQ8AAAAJ:d1gkVwhDpl0C"
   },
   {
-    "id": 7,
+    "id": 8,
     "name": "Minecraft AI",
     "image": "https://i.imgur.com/rH7S0M9.png",
     "description": "A Reinforcement Learning agent that learns how to to solve maze missions in Minecraft.",
-    "tags": ["PyTorch", "Reinforcement-Learning", "Minecraft"],
+    "tags": [
+      "PyTorch",
+      "Reinforcement-Learning",
+      "Minecraft"
+    ],
     "source_code": "https://github.com/drkostas/Minecraft-AI"
   },
   {
-    "id": 8,
+    "id": 9,
     "name": "3D Semantic Segmentation",
     "image": "https://imgur.com/NtIvxWG.png",
     "description": "Semantic Segmentation with Transformers on 3D Medical Images.",
-    "tags": ["PyTorch", "OpenCV", "SegFormer", "Semantic-Segmentation", "Medical-Imaging"],
+    "tags": [
+      "PyTorch",
+      "OpenCV",
+      "SegFormer",
+      "Semantic-Segmentation",
+      "Medical-Imaging"
+    ],
     "source_code": "https://github.com/drkostas/3D-Semantic-Segmentation"
   },
   {
-    "id": 9,
+    "id": 10,
     "name": "Transformer-based Question Answering using BERT",
     "image": "https://imgur.com/dw21deK.png",
     "description": "BERT-based question answering/reading comprehension methods on Rinehart Novels.",
-    "tags": ["PyTorch", "SpaCy", "HuggingFace", "Transformers", "BERT"],
+    "tags": [
+      "PyTorch",
+      "SpaCy",
+      "HuggingFace",
+      "Transformers",
+      "BERT"
+    ],
     "source_code": "https://github.com/drkostas/Bert-Question-Answering"
   },
   {
-    "id": 10,
+    "id": 11,
     "name": "Accident Severity Prediction",
     "image": "https://imgur.com/3w7SKLt.png",
     "description": "Predicting the severity of car accidents from various attributes.",
-    "tags": ["Pandas", "Scipy", "Bayesian-Optimization", "XGBoost",
-    "Logistic-Regression", "Neural-Network", "K-Means"],
+    "tags": [
+      "Pandas",
+      "Scipy",
+      "Bayesian-Optimization",
+      "XGBoost",
+      "Logistic-Regression",
+      "Neural-Network",
+      "K-Means"
+    ],
     "source_code": "https://github.com/drkostas/accident-severity-prediction"
   },
   {
-    "id": 11,
+    "id": 12,
     "name": "Hybrid Girvan Newman",
     "image": "https://imgur.com/FcIlWzb.png",
     "description": "Hybrid Girvan Newman. Code for the `A Distributed Hybrid Community Detection Methodology for Social Networks` paper.",
-    "tags": ["Apache-Spark", "Social-Networks", "Community-Detection", "GraphFrames", "MySQL"],
+    "tags": [
+      "Apache-Spark",
+      "Social-Networks",
+      "Community-Detection",
+      "GraphFrames",
+      "MySQL"
+    ],
     "source_code": "https://github.com/drkostas/HGN",
     "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=b___QQ8AAAAJ&authuser=1&citation_for_view=b___QQ8AAAAJ:u5HHmVD_uO8C"
   },
   {
-    "id": 12,
+    "id": 13,
     "name": "COVID-19 Vaccination Prediction",
     "image": "https://imgur.com/uXxzBBC.png",
     "description": "Simultaneous Time Series Forecasting on the global COVID-19 Daily Vaccinations.",
-    "tags": ["Tensorflow", "LSTMs", "Multivariate-Time-Series"],
+    "tags": [
+      "Tensorflow",
+      "LSTMs",
+      "Multivariate-Time-Series"
+    ],
     "source_code": "https://github.com/drkostas/covid19-vaccinations-predict"
   },
   {
-    "id": 13,
+    "id": 14,
     "name": "Instagram Likes Prediction",
     "image": "https://imgur.com/siwQMhc.png",
     "description": "First attempt on predicting the likes a photo will get on Instagram.",
-    "tags": ["Tensorflow", "OpenCV", "Instagram", "Scraper", "CNN"],
+    "tags": [
+      "Tensorflow",
+      "OpenCV",
+      "Instagram",
+      "Scraper",
+      "CNN"
+    ],
     "source_code": "https://github.com/drkostas/Insta-Likes-Predict"
   },
   {
-    "id": 14,
+    "id": 15,
     "name": "Reinforcement Learning - Value Iteration",
     "image": "https://imgur.com/v0s5gPx.png",
     "description": "Implementation of value iteration algorithm for calculating an optimal MDP policy.",
-    "tags": ["Markov-Decision-Process", "Value-Iteration", "RL"],
+    "tags": [
+      "Markov-Decision-Process",
+      "Value-Iteration",
+      "RL"
+    ],
     "source_code": "https://github.com/drkostas/RL-Value-Iteration"
   },
   {
-    "id": 15,
+    "id": 16,
     "name": "Vanilla Numpy CNN",
     "image": "https://imgur.com/sNrVbbL.png",
     "description": "A Vanilla Numpy-only Convolutional Neural Network.",
-    "tags": ["Numpy", "CNN", "Vanilla-Implementation"],
+    "tags": [
+      "Numpy",
+      "CNN",
+      "Vanilla-Implementation"
+    ],
     "source_code": "https://github.com/drkostas/Numpy-CNN"
   },
   {
-    "id": 16,
+    "id": 17,
     "name": "Vanilla Numpy Neural Network",
     "image": "https://imgur.com/mm29qlX.png",
     "description": "A Vanilla Numpy-only Feed-Forward Neural Network.",
-    "tags": ["Numpy", "Neural-Network", "Vanilla-Implementation"],
+    "tags": [
+      "Numpy",
+      "Neural-Network",
+      "Vanilla-Implementation"
+    ],
     "source_code": "https://github.com/drkostas/Numpy-NeuralNet-1"
   }
 ]

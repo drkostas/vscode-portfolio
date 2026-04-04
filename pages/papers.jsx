@@ -101,15 +101,28 @@ const PapersPage = ({ papers }) => {
                   </div>
                 </div>
 
-                <a
-                  href={paper.link}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className={styles.readLink}
-                  title="Read full paper"
-                >
-                  PDF →
-                </a>
+                {paper.code && (
+                  <a
+                    href={paper.code}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className={styles.readLink}
+                    title="View code"
+                  >
+                    Code →
+                  </a>
+                )}
+                {paper.link && (
+                  <a
+                    href={paper.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className={styles.readLink}
+                    title="Read full paper"
+                  >
+                    PDF →
+                  </a>
+                )}
               </div>
             </div>
           );
