@@ -36,6 +36,13 @@ const ContactPage = () => {
       href: 'https://pypi.org/user/drkostas',
       icon: '📦',
       description: 'Python packages'
+    },
+    {
+      name: 'HuggingFace',
+      value: 'huggingface.co/drkostas',
+      href: 'https://huggingface.co/drkostas',
+      icon: '🤗',
+      description: 'ML models & datasets'
     }
   ];
 
