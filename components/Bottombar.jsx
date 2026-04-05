@@ -4,6 +4,8 @@ import BellIcon from './icons/BellIcon';
 import GithubIcon from './icons/GithubIcon';
 import LinkedinIcon from './icons/LinkedinIcon';
 import ScholarIcon from './icons/ScholarIcon';
+import PypiIcon from './icons/PypiIcon';
+import HuggingFaceIcon from './icons/HuggingFaceIcon';
 import SourceControlIcon from './icons/SourceControlIcon';
 import styles from '../styles/Bottombar.module.css';
 
@@ -44,6 +46,18 @@ const Bottombar = () => {
           <div className={styles.section}>
             <ScholarIcon className={styles.icon} />
             <p>Scholar</p>
+          </div>
+        </a>
+        <a href="https://pypi.org/user/drkostas" target="_blank" rel="noopener">
+          <div className={styles.section}>
+            <PypiIcon className={styles.icon} />
+            <p>PyPi</p>
+          </div>
+        </a>
+        <a href="https://huggingface.co/drkostas" target="_blank" rel="noopener">
+          <div className={styles.section}>
+            <HuggingFaceIcon className={styles.icon} />
+            <p>HuggingFace</p>
           </div>
         </a>
         {/* <div className={styles.section}>
